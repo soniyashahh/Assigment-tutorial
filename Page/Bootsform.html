@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navbar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<form>
+		<div class="form-group">
+			<label>Enter Name</label>
+			<input type="text" class="form-control" placeholder="user name" name="uname">
+		</div>
+		<div class="form-group">
+			<label>Enter Email</label>
+			<input type="email" class="form-control" placeholder="user email" name="uemail">
+		</div>
+		<div class="form-group">
+			<label>Enter Password</label>
+			<input type="password" class="form-control" placeholder="user password" name="upass">
+		</div>
+		<div class="form-group">
+			<label>Re-enter Password</label>
+			<input type="password" class="form-control" placeholder="user password" name="upass">
+		</div>
+		<div class="form-group">
+         <label>Phone Number</label>
+		 <input type="tel" class="form-control" placeholder="123-4526-678" name="ucontact">
+		</div>
+		<div class="checkbox">
+			<label class="control-label">
+				<input type="checkbox" name="unews" value="y">
+               Want newsletter
+			</label>
+		</div>
+		<div class="radio">
+			<label class="control-label">
+				<input type="radio" name="ugender" value="m"> Male
+			</label>
+		</div>
+		<div class="radio">
+			<label class="control-label">
+				<input type="radio" name="ugender" value="f"> Female
+			</label>
+		</div>
+		<div class="radio">
+			<label class="control-label">
+				<input type="radio" name="ugender" value="o"> Other
+			</label>
+		</div>
+		<div class="form-group">
+			<label>Select Your Education</label>
+			<select name="ued" class="form-control" required>
+				<option value="ug">Under Graduate</option>
+				<option value="gd">Graduate</option>
+				<option value="d">Diploma</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label>What do you have?</label>
+			<select name="uhave" class="form-control" required multiple>
+			<option value="ho">Home</option>
+			<option value="mb">Mobile</option>
+			<option value="cr">Car</option>
+			<option value="Dr">Dress</option>
+			</select>
+			</div>
+			<div class="form-group">
+				<label>Address</label>
+				<textarea name="uaddr" class="form-control" rows="5" cols="30"></textarea>
+			</div>
+			<input type="submit" value="Send Data" class="btn btn-block btn-danger">
+
+	</form>
+</div>
+
+	</body>
+	</html>

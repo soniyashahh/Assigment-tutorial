@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Change para</title>
+    <script>
+        function AddElement()
+        {
+            var mydiv = document.getElementById("d1");
+            var mypara = document.createElement("p");
+            mypara.innerText = "this is newly added para";
+            mypara.style.backgroundColor="yellow";
+            mydiv.appendChild(mypara);
+        }
+    </script>
+</head>
+<body>
+  <div style="border-style: solid; border-color: blue;" id="d1"> 
+  <p>this is fist para</p>
+  <p>this is second para</p>
+  <p>this is third para</p>
+</div>
+<br><br>
+<button id="btnAdd" onclick="AddElement()"> CLICK TO ADD NEW AddElement</button>
+</body>
+</html>

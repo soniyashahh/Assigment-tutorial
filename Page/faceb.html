@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Sign Up Page Clone</title>
+    <style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto',sans-serif;
+    }
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: Linear-gradient(#48649F,#385998);
+    border-bottom: 1px solid #253a69;
+}
+
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+
+
+}
+.myform{
+    position: absolute;
+    left: 58%;
+    top:15px;
+    color: white;
+    height: 55px;
+    width: 220px;
+    display: flex;
+}
+.myform {
+    height: 20px;
+}
+.myform .email, .password{
+    font-size: 14px;
+    padding-bottom: 4px;
+    color: white;
+
+}
+.myform .email input,
+.myform .password input{
+    height: 23px;
+    width: 140px;
+    padding-left: 5px;
+    margin-left: 4px;
+    border: 1px solid black;
+    outline: none;
+
+}
+.myform .btn{
+    color: white;
+}
+.login_btn{
+    color: white;
+    background: Linear-gradient(#48649F,#385998);
+    border: 1px solid #224285;
+    outline: none;
+    position: absolute;
+    left: 80%;
+    top: 35px;
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.link{
+    color: white;
+    position: absolute;
+    left:70%;
+    top: 60px;
+    opacity: 6px;
+
+}
+.logo_body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#FDFDFE,#EFF1F6,#E3E6F0,#D6DBEA);
+    
+}
+.logo_body img{
+    margin-left: 10%;
+    padding-top: 20px;
+
+}
+.logo_body p{
+    width: 35%;
+    color: #1c273f;
+    padding-top: 50px;
+    padding-left: 160px;
+    font-weight: 20px;
+    
+    
+}
+.signup_body{
+    font-family: arial;
+    position: absolute;
+    left: 57%;
+}
+.signup_body .acc_crt{
+    font-size: 40px;
+    margin: 25px 0;
+}
+.signup_body .free_hint{
+    margin: -20px 5px;
+    font-size: 18px;
+}
+.signup_body .signup_form input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.signup_body .signup_form .lastname{
+    margin-left: 15px;
+
+}
+.signup_body .signup_form .email,
+.signup_body .signup_form .password{
+    margin-top: 20px;
+    width: 410px;
+
+}
+.signup_body .signup_form .birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.signup_body .signup_form .birth_date{
+    margin-top: 5px;
+}
+.signup_body .signup_form .month,
+.signup_body .signup_form .day,
+.signup_body .signup_form .year{
+    height: 28px;
+}
+.signup_body .signup_form .month,
+.signup_body .signup_form .day{
+    margin-left: -5px;
+}
+.signup_body .signup_form .brth_hint{
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 310px;
+}
+.signup_body .signup_form .brth_hint a{
+    text-decoration: none;
+}
+.signup_body .signup_form .brth_hint a:hover{
+    text-decoration: underline;
+}
+.signup_body .signup_form input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 30px;
+    
+}
+.signup_body .signup_form input[type="female"]{
+    margin-left: -100px;
+    
+}
+.signup_body .signup_form .font{
+    margin-left: 57px;
+    margin-top: -17px;
+    
+}
+.signup_body .signup_form .font2{
+    margin-left: 200px;
+    margin-top: -17px;
+    
+}
+</style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <img src="fblogor.png" alt="logo" class="logo">
+        <form class="login_form">
+            <div class="myform">
+                <div class="email">
+            <label for="email">Email or Phone</label>
+<input type="text" name="email" required>
+</div>
+<div class="password">
+<label for="psw">Password</label>
+<input type="text" name="psw" required>
+</div>
+
+</div>
+
+<button class="login_btn">Log In</button>
+<a class="link" href="#">Forgotten account?</a>
+        </form>
+</nav>
+
+<section>
+<div class="logo_body">
+    <p>Facebook helps you connect and share with the people in your life.</p>
+    <img src="fbpicr.png" alt="xyz">
+</div>
+
+<div class="signup_body">
+    <p class="acc_crt">Create an account</p>
+    <p class="free_hint">It's free and always will be.</p>
+
+<form class="signup_form">
+    <div>
+        <input class="firstname" type="text" name="" placeholder="First name">
+        <input class="surname" type="text" name="" placeholder="Surname">
+        <input class="email" type="text" name="" placeholder="Mobile number or Email address">
+        <input class="password" type="password" name="" placeholder="New password">
+        
+    </div>
+    <p class="birthday">Birthday</p>
+    <div class="birth_date">
+        <select class="month">
+            <option>Month</option><option>Jan</option><option>Feb</option><option>Mar</option><option>Apr</option>
+            <option>May</option><option>Jun</option><option>July</option><option>Aug</option><option>Sep</option>
+            <option>Oct</option><option>Nov</option><option>Dec</option>
+        </select>
+
+        <select class="day">
+            <option>Day</option><option>1</option><option>2</option><option>3</option><option>4</option>
+            <option>5</option><option>6</option><option>7</option><option>8</option><option>9</option>
+            <option>10</option><option>11</option><option>12</option>
+        </select>
+
+        <select class="year">
+            <option>Year</option><option>1970</option><option>1971</option><option>1972</option><option>1973</option>
+            <option>1974</option><option>1975</option><option>1976</option><option>1977</option><option>1978</option>
+            <option>1979</option><option>1980</option><option>1981</option>
+        </select>
+        <p class="brth_hint"><a href="#">Why do i need to provide my date of birth?</a></p>
+    </div>
+    <input type="radio" name="gender" value="male">
+    <input type="radio" name="gender" value="female">
+    <p class="font">Female</p>
+    <p class="font font2">Male</p>
+</form>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

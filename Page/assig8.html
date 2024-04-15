@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style type="text/css">
+     body{
+        font-size: 15px;
+        background: white;
+     }
+     form{
+        width: 300px;
+        background: white;
+    
+        
+        
+     }
+     input, select{
+        border: 1px solid #ccc;
+        box-shadow: 5px 5px 3px rgb(206, 202, 202);
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+     }
+     label{
+        display: block;
+        margin-bottom: 6px;
+     }
+     div{
+        padding-bottom: 12px;
+     }
+     .form-inline{
+        padding: 8px 10px 4px;
+     }
+     .form-inline label,.form-inline input{
+      display: inline-block;
+      width: auto;
+      padding-right:15px;
+     }
+    </style>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>* denotes mandotory</h3>
+    <form>
+        <div>
+        <label for="Your Name"><b>Full name*:</b></label>
+        <input type="text" name="Your Name" placeholder="FirstName LastName" maxlength="20"> 
+        </div>
+        <div>
+            <label for="Your email"><b>Email address*:</b></label>
+            <input type="text" name="Your email" placeholder="EMAIL ADDRESS" maxlength="20"> 
+            </div>
+            <div>
+                <label for="Area"><b>Select Tour Package*:</b></label>
+                <select>
+                    <option>Goa</option>
+                </select>
+            </div>
+            <div>
+                <label for="date"><b>Arrival date*:</b></label>
+                <input type="text" name="mm/dd/yy" placeholder="m/d/y" maxlength="20">
+            </div>
+            <div>
+                <label for="Number"><b>Number of persons*:</b></label>
+                <input type="text" name="persons" placeholder="UNKNOWN_TYPE" maxlength="20">
+            </div>
+            <div>
+                <label><b>What would you want to avail?*</b></label>
+                <div class="form-inline">
+                    <label>
+                        <input type="checkbox" name="avail" value="boa">Boarding</label>
+                        <label>
+                            <input type="checkbox" name="avail" value="boa">Fooding</label>
+                            <label>
+                                <input type="checkbox" name="avail" value="boa">Sight seeing</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="Number"><b>Discout Coupon code:</b></label>
+                <input type="text" name="persons" placeholder="UNKNOWN_TYPE" maxlength="20">
+            </div>
+            <div>
+                <label><b>Terms and conditions</b></label>
+                <div class="form-inline">
+               <label><input type="radio" name="Agree" value="Agree"><b>I agree</b></label>
+               <label><input type="radio" name="Disagree" value="Disagree"><b>I disagree</b></label>
+            </div>
+            </div>
+            <div>
+                <input type="submit" name="complete" value="Complete Reservation">
+            </div>
+
+    </form>
+</body>
+</html>

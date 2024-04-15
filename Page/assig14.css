@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(Ibus.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+}
+
+nav {
+  display: flex;
+  padding: 20px 90px;
+  align-items: center;
+  background-color: rgb(216, 47, 106);
+  width: 1340px;
+  height: 60px;
+  margin: auto;
+
+}
+
+nav img {
+  width: 150px;
+
+}
+
+nav ul {
+  text-align: left;
+  display: inline;
+  list-style: none;
+  flex: 1;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  margin-left: 15px;
+
+}
+
+.sub-men,
+select {
+  background-color: rgb(216, 47, 106);
+  color: white;
+  font-size: 17px;
+}
+
+.message {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 120px;
+  margin-right: 100px;
+  font-family: Arial, Helvetica;
+}
+
+.box.p {
+  background-color: white;
+  height: 100px;
+  width: 80;
+  border: 4px;
+  box-shadow: 0cap;
+}
+
+#footer {
+  height: 200px;
+  margin-top: 100px;
+  width: 100%;
+  background-color: rgb(214, 203, 189);
+}
+
+#footer td {
+  border-style: solid;
+  border-width: 20px;
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 21px;
+  font-family: Arial;
+
+}
+
+button {
+
+  background-color: rgb(226, 21, 21);
+  height: 40px;
+  color: white;
+  font-size: 20px;
+
+}
+
+#up {
+  background-color: white;
+  height: 80px;
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 750px;
+
+}
+
+#down {
+  background-color: Iwhite;
+  height: 80px;
+  width: 600px;
+  margin-left: 750px;
+}
+
+.down.td {
+  color: black;
+}

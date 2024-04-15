@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sum Demo</title>
+    <script>
+    function sum() {
+        var fnum =
+        parseInt(document.getElementById("txtFnum").value);
+        var snum =
+        parseInt(document.getElementById("txtSnum").value);
+        var ans = fnum + snum;
+        alert("Sum of" + fnum + "and" + snum + "is" + ans);
+        }
+        </script>
+        </head>
+        <body>
+                <form>
+                <table>
+                <tr>
+                <td>
+                <label>Enter first Number</label>
+                </td>
+                <td>
+                <input type="text" id="txtFnum">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <label>Enter Second Number</label>
+                </td>
+                <td>
+                <input type="text" id="txtSnum">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                <input type="button" id="btnAdd" value="CLICK TO ADD" onclick=
+                "sum()">
+                </td>
+                <td>
+                <input type="reset" value="CLICK TO CLEAR">
+                </td>
+                </tr>
+                </table>
+            </form>
+</body>
+</html>

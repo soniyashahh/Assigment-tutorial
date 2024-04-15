@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Form </title>
+</head>
+<body>
+    <form method="get">
+        <table>
+            <tr>
+                <td>
+            <label for="Your Name"> Enter Name</label>
+            </td>
+            <td>
+                <input type="text" name="Your Name" placeholder="Enter User Name" maxlength="20"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter E-mail-ID
+            </td>
+            <td>
+                <input type="email" Name=" Your Email" id="Your Email" placeholder="Enter Your E-mail" maxlength=" 30">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter PassWord
+            </td>
+            <td>
+                <input type="password" name="Your Password" id="Your Password" placeholder=" Enter Your Password" maxlength="15">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Age
+            </td>
+            <td>
+                <input type="number" name="Your Age" id="Your Age" max="60" min="18" placeholder="Age" maxlength="10"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter DOB
+            </td>
+            <td>
+                <input type="date" name= "Your Date" id=" Your Date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter Your Favorite Color
+            </td>
+            <td>
+             <input type="color" name="Your Name" id="Your Name">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    Select Gender
+                </td>
+                <td>
+                    <input type="radio" name="Your Gender" id="Your Gender" value="M"> Male
+                    <input type="radio" name="Your Gender" id="Your Gender" value="F"> Female
+                    <input type="radio" name="Your Gender" id="Your Gender" value="O"> Other
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   Select What You Have?
+                </td>
+                <td>
+                    <input type="checkbox" name="Your Car" id="Your Car" value="C"> Car
+                    <input type="checkbox" name="Your House" id="Your House" value="H"> House
+                    <input type="checkbox" name="Your Mobile" id="Your Mobile" value="M"> Mobile
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select Your Educatoin
+                </td>
+                <td>
+                    <select name="Your Educatoin" id="Your Educatoin">
+                    <option value="UG"> Under Graduate </option>
+                    <option value="PG"> Post Graduate </option>
+                    <option value="G"> Graduate </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Your Address
+                </td>
+                <td>
+                    <textarea id=" Your Address" name=" Your Address" raw="5" cols="30">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Your Mobile No.
+                </td>
+                <td>
+                    <input type="phone N" id="phone N" name="phone" placeholder=" 123-456-7891" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Enter Your Linkdin ID
+                </td>
+                <td>
+                    <input type="url" id="home Page" name="home page">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Select Your Pic
+                </td>
+                <td>
+                    <input type="file" name="fileupload" accept="page/ss photo.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Create Account" name="usubmit" id="usubmit">
+                </td>
+                <td>
+                    <input type="reset" value="clear">
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>
